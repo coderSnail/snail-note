@@ -30,9 +30,40 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         text: 'Java',
         link: '/java/',
         items: [
-          {
-            text: 'java基础', link: '/pages/8b42e6/',
-          }
+          { text: '面向对象', link: '/pages/581108/' },
+          { text: '异常', link: '/pages/ce798b/' },
+          { text: '泛型', link: '/pages/83010c/' },
+          { text: '反射', link: '/pages/9a2e16/' },
+          { text: '注解', link: '/pages/ee29f4/' },
+          { text: 'SPI', link: '/pages/38b633/' },
+        ],
+      },
+      {
+        text: '框架|中间件',
+        link: '/framework/',
+        items: [
+          
+        ],
+      },
+      {
+        text: '数据库',
+        link: '/database/',
+        items: [
+          
+        ],
+      },
+      {
+        text: '计算机基础',
+        link: '/computer/',
+        items: [
+          
+        ],
+      },
+      {
+        text: '系统设计',
+        link: '/systemdesign/',
+        items: [
+          
         ],
       },
       {
@@ -40,9 +71,14 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         link: '/dev_util/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
         items: [
           // 说明：以下所有link的值只是在相应md文件头部定义的永久链接（不是什么特殊编码）。另外，注意结尾是有斜杠的
-          {
-            text: 'Git', link: '/pages/6b4664/',
-          }
+          { text: 'Git', link: '/pages/6b4664/' },
+        ],
+      },
+      {
+        text: '系统性学习',
+        link: '/course/',
+        items: [
+          
         ],
       },
       {
